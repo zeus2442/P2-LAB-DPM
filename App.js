@@ -44,7 +44,7 @@ const App = () => {
       style={styles.container}
     >
       <View style={styles.headerContainer}>
-      <Text style={styles.headerText}>SULTAN FADHIL 5C</Text>
+      <Text style={styles.headerText}>FAUZI</Text>
         <Text style={styles.headerText}>Interactive Design</Text>
         <Text style={styles.subtitleText}>Touch the boxes to interact</Text>
       </View>
