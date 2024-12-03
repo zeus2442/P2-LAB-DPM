@@ -124,34 +124,36 @@ const styles = StyleSheet.create({
   },
   boxContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    width: width * 0.8,
+    justifyContent: 'space-around', // Mengatur jarak yang merata antar kotak
+    alignItems: 'center',          // Memastikan sejajar di tengah secara vertikal
+    width: width * 0.8,            // Membatasi lebar untuk pengaturan tata letak
   },
   box1: {
-    width: width * 0.35,
-    height: width * 0.35,
-    backgroundColor: '#FFD700', 
+    width: 100,
+    height: 100,
+    backgroundColor: '#FFD700',
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(255,215,0,0.2)', 
+    borderColor: 'rgba(255,215,0,0.2)',
   },
   box2: {
-    width: width * 0.35,
-    height: width * 0.35,
-    backgroundColor: '#32CD32', 
+    width: 100,
+    height: 100,
+    backgroundColor: '#32CD32',
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(50,205,50,0.2)', 
+    borderColor: 'rgba(50,205,50,0.2)',
   },
   boxText: {
     color: 'white',
     fontSize: 18,
     fontWeight: 'bold',
-  }
+  },
+
 });
 
 export default App;
