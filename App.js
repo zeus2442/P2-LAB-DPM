@@ -124,9 +124,9 @@ const styles = StyleSheet.create({
   },
   boxContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-around', // Mengatur jarak yang merata antar kotak
-    alignItems: 'center',          // Memastikan sejajar di tengah secara vertikal
-    width: width * 0.8,            // Membatasi lebar untuk pengaturan tata letak
+    justifyContent: 'space-around', 
+    alignItems: 'center',        
+    width: width * 0.8,           
   },
   box1: {
     width: 100,
