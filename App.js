@@ -45,8 +45,8 @@ const App = () => {
     >
       <View style={styles.headerContainer}>
       <Text style={styles.headerText}>FAUZI</Text>
-        <Text style={styles.headerText}>Interactive Design</Text>
-        <Text style={styles.subtitleText}>Touch the boxes to interact</Text>
+        <Text style={styles.headerText}>bisa berinteraksi</Text>
+        <Text style={styles.subtitleText}>tekan kotak tersebut</Text>
       </View>
 
       <View style={styles.boxContainer}>
@@ -130,22 +130,22 @@ const styles = StyleSheet.create({
   box1: {
     width: width * 0.35,
     height: width * 0.35,
-    backgroundColor: '#ff7f7f',
+    backgroundColor: '#FFD700', 
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(255,127,127,0.2)',
+    borderColor: 'rgba(255,215,0,0.2)', 
   },
   box2: {
     width: width * 0.35,
     height: width * 0.35,
-    backgroundColor: '#7fafff',
+    backgroundColor: '#32CD32', 
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
     borderWidth: 1,
-    borderColor: 'rgba(127,175,255,0.2)',
+    borderColor: 'rgba(50,205,50,0.2)', 
   },
   boxText: {
     color: 'white',
